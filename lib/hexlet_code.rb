@@ -17,8 +17,6 @@ module HexletCode
         else
           "<#{tag}#{tag_params}></#{tag}>"
         end
-        # return "<#{tag}#{tag_params}>" if SINGLE_TAGS.include?(tag)
-        # "<#{tag}#{tag_params}></#{tag}>"
       end
 
       private
